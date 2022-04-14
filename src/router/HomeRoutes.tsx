@@ -20,7 +20,7 @@ export const homeRoutes = [
         children: <Setting />
     },
     {
-        path: '/*',
+        path: '*',
         exact: false,
         children: <Page404 />
     },
